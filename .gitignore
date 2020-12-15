@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+.DS_Store
+server/auth/credentials.js
+client/dist/bundle.js
+client/src/key.js
