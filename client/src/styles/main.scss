@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+//*************LIGHT MODE*************//
+.light-mode {
+  transition: 0.5s ease-in-out;
+  color: rgba(15, 125, 83, 0.54);
+
+  .header {
+    background: rgba(27, 189, 127, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .header-logo {
+    background: rgba(244, 242, 242, 0.975);
+    transition: all 0.2s ease-in-out;
+    color: #222;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .lang-list {
+    column-count: 6;
+    column-gap: 90px;
+    padding: 0 10% 0 0;
+    line-height: 33px;
+    list-style-type: none;
+    max-height: 10vh;
+    overflow-x: scroll;
+  }
+
+  // .lang-list::-webkit-scrollbar {
+  //   display: none;
+  // }
+
+  .single-lang {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .single-lang:hover {
+    transition: 0.2s ease-in-out;
+    border-width: 20px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgba(27, 189, 127, 0.54);
+  }
+
+  .saved-icon:hover {
+    color: rgba(15, 125, 83, 0.54);
+    cursor: pointer;
+  }
+
+  .options {
+    padding-bottom: 30px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #222 !important;
+  }
+
+  #outlined-full-width {
+    color: #222 !important;
+    background-color: rgba(244, 242, 242, 0.975);
+  }
+
+  .MuiInputBase-root {
+    background-color: rgba(244, 242, 242, 0.975);
+  }
+
+  .MuiBadge-colorSecondary {
+    color: #fff;
+    background-color: rgba(15, 125, 83, 0.54);
+  }
+
+  .scroll-body {
+    max-height: 28vh;
+    overflow-y: scroll;
+  }
+
+  .scroll-body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .MuiIconButton-root {
+    color: rgba(0, 0, 0, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .history-add {
+    color: #fff;
+    background: rgba(27, 189, 127, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .history-add:hover {
+    transform: scale(1.1) !important;
+    background: rgba(3, 244, 151, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .MuiSvgIcon-root {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .MuiSvgIcon-root:hover {
+    transform: scale(1.1) !important;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .history-popup {
+    border: #ccc solid;
+    border-width: thin;
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .history-item {
+    font-size: large;
+  }
+
+  .MuiIconButton-label:hover {
+    transform: scale(1.2) !important;
+    transition: all 0.2s ease-in-out;
+    color: rgba(218, 44, 13, 0.54);
+  }
+
+  .MuiIconButton-label {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .speech {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .speech:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+//*************DARK MODE*************//
+.dark-mode {
+  transition: 0.5s ease-in-out;
+  color: rgba(1, 33, 116, 0.54);
+
+  .header {
+    background: rgba(1, 33, 116, 0.54);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .header-logo {
+    background: rgba(244, 242, 242, 0.975);
+    transition: all 0.2s ease-in-out;
+    color: #222;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .lang-list {
+    column-count: 6;
+    column-gap: 90px;
+    padding: 0 10% 0 0;
+    line-height: 33px;
+    list-style-type: none;
+    max-height: 10vh;
+    overflow-x: scroll;
+  }
+
+  // .lang-list::-webkit-scrollbar {
+  //   display: none;
+  // }
+
+  .single-lang {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .single-lang:hover {
+    transition: 0.2s ease-in-out;
+    border-width: 20px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgba(1, 33, 116, 0.54);
+  }
+
+  .saved-icon:hover {
+    color: rgba(1, 33, 116, 0.54);
+    cursor: pointer;
+  }
+  .options {
+    padding-bottom: 30px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #222 !important;
+  }
+
+  #outlined-full-width {
+    color: #222 !important;
+    background-color: rgba(244, 242, 242, 0.975);
+  }
+
+  .MuiInputBase-root {
+    background-color: rgba(244, 242, 242, 0.975);
+  }
+
+  .MuiBadge-colorSecondary {
+    color: #fff;
+
+    background-color: rgba(1, 33, 116, 0.54);
+  }
+
+  .scroll-body {
+    max-height: 28vh;
+    overflow-y: scroll;
+  }
+
+  .scroll-body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .MuiIconButton-root {
+    color: rgba(0, 0, 0, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .history-add {
+    color: #fff;
+    background: rgba(31, 66, 155, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .history-add:hover {
+    transform: scale(1.1) !important;
+    background: rgba(1, 33, 116, 0.54);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .MuiSvgIcon-root {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .MuiSvgIcon-root:hover {
+    transform: scale(1.1) !important;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .history-popup {
+    border: #ccc solid;
+    border-width: thin;
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .history-item {
+    font-size: large;
+  }
+
+  .MuiIconButton-label:hover {
+    transform: scale(1.2) !important;
+    transition: all 0.2s ease-in-out;
+    color: rgba(218, 44, 13, 0.54);
+  }
+
+  .MuiIconButton-label {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .speech {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .speech:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+  }
+}
