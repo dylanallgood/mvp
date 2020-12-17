@@ -56,10 +56,8 @@ const TranslateArea = ({ addTo, clickedSave, playVal }) => {
   return (
     <div
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
         marginTop: '2%',
+        marginLeft: '0.5%',
       }}>
       <div style={{ display: 'flex' }}>
         <TranslateColumn

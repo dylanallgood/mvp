@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
+    marginLeft: '-0.1%',
   },
   textField: {
     marginLeft: theme.spacing(1),
@@ -35,7 +36,7 @@ const TextArea = ({ getValue, playVal }) => {
       <TextField
         value={value}
         id='outlined-full-width'
-        style={{ margin: 8, width: 1008 }}
+        style={{ margin: 8, width: 1006 }}
         placeholder=''
         margin='normal'
         multiline={true}
