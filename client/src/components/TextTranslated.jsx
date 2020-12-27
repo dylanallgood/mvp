@@ -3,15 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-  },
-  textField: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
-    width: '25ch',
-  },
+  root: {},
+  textField: {},
 }));
 
 const TextTranslated = ({ translatedValue }) => {
@@ -27,7 +20,7 @@ const TextTranslated = ({ translatedValue }) => {
     <div className={classes.root}>
       <TextField
         id='outlined-full-width'
-        style={{ margin: 8, width: 1008 }}
+        style={{ margin: 8, width: '96.5%' }}
         placeholder='Translation...'
         margin='normal'
         multiline={true}

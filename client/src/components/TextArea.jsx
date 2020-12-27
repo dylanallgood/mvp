@@ -3,16 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    marginLeft: '-0.1%',
-  },
-  textField: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
-    width: '25ch',
-  },
+  root: {},
+  textField: {},
 }));
 
 const TextArea = ({ getValue, playVal }) => {
@@ -36,7 +28,7 @@ const TextArea = ({ getValue, playVal }) => {
       <TextField
         value={value}
         id='outlined-full-width'
-        style={{ margin: 8, width: 1006 }}
+        style={{ margin: 8, width: '96.5%' }}
         placeholder=''
         margin='normal'
         multiline={true}

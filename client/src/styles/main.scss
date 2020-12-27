@@ -2,7 +2,6 @@
 
 * {
   margin: 0;
-  padding: 0;
 }
 
 html {
@@ -30,17 +29,14 @@ html {
 
   .lang-list {
     column-count: 6;
-    column-gap: 90px;
+    column-gap: 50%;
     padding: 0 10% 0 0;
     line-height: 33px;
     list-style-type: none;
     max-height: 10vh;
     overflow-x: scroll;
+    width: 85%;
   }
-
-  // .lang-list::-webkit-scrollbar {
-  //   display: none;
-  // }
 
   .single-lang {
     text-align: center;
@@ -172,12 +168,13 @@ html {
 
   .lang-list {
     column-count: 6;
-    column-gap: 90px;
+    column-gap: 80px;
     padding: 0 10% 0 0;
     line-height: 33px;
     list-style-type: none;
     max-height: 10vh;
     overflow-x: scroll;
+    width: 85%;
   }
 
   // .lang-list::-webkit-scrollbar {

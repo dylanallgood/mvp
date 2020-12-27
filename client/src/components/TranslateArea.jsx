@@ -57,9 +57,9 @@ const TranslateArea = ({ addTo, clickedSave, playVal }) => {
     <div
       style={{
         marginTop: '2%',
-        marginLeft: '0.5%',
+        marginLeft: '2%',
       }}>
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex', maxWidth: '60%' }}>
         <TranslateColumn
           TextArea={<TextArea getValue={getValue} playVal={playVal} />}
           getLang={langFrom}
