@@ -2,13 +2,14 @@
 
 MVP project completed in 2 days.
 
-I used Google's API and a text-to-speech API to transform input text into a user selected language.
+I used Google's API and a text-to-speech API to transform input text into a user
+selected language.
 
-![Product overview component](readme_assets/1.png)
+![Product overview component](readme_assets/1.gif)
 
-![Product overview component](readme_assets/2.png)
+![Product overview component](readme_assets/2.gif)
 
-![Product overview component](readme_assets/3.png)
+![Product overview component](readme_assets/3.gif)
 
 ## Tech Stack
 
