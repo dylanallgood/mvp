@@ -1,1 +1,20 @@
-# mvp
+# Translate - Text-to-Speech Translation Application
+
+MVP project completed in 2 days.
+
+I used Google's API and a text-to-speech API to transform input text into a user selected language.
+
+![Product overview component](readme_assets/1.png)
+
+![Product overview component](readme_assets/2.png)
+
+![Product overview component](readme_assets/3.png)
+
+## Tech Stack
+
+- [React](https://nodejs.org/en/)
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [AWS](https://aws.amazon.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Docker](https://www.docker.com/)
