@@ -1,6 +1,6 @@
 # Translate - Text-to-Speech Translation Application
 
-MVP project completed in 1 days.
+MVP project completed in 1 day.
 
 I used Google's API and a text-to-speech API to transform input text into a user
 selected language.
